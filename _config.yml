@@ -1,10 +1,9 @@
 markdown: rdiscount
 pygments: true
-paginate_path: 'page:num'
 permalink:  /blog/:categories/:title/
 url: http://www.kedked.me
 name: ked's Space
 author: ked
 email: ked.chan10@gmail.com
-keyword: ked,前端开发,重构,骑行,HTML5,javascript,CSS,互联网,旅游,时间管理
+keyword: 前端开发,重构,骑行,HTML5,javascript,CSS,互联网,旅游,时间管理
 description: ked的小小世界，分享快乐生活，学习互联网技术
