@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="author" content="{{ site.author }}" />
-    <title></title>
-    <meta name="keyword" content="{{ site.keyword }}"/>
-	<meta name="description" content="{{ site.description }}"/>
-	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
+    <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{{ page.title }} | {{ site.name }}</title>
+    <meta name="keyword" content="{% if page.path == 'index.html' %}{{ site.keyword }}{% else %}{{ page.keyword }} | {{ site.name }}"/>
+	<meta name="description" content="{% if page.path == 'index.html' %}{{ site.description }}{% else %}{{ page.description }} | {{ site.name }}"/>
+	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
   </head>
   <body>
@@ -17,9 +17,9 @@
 		<nav>
 			<ul class="clear navList">
 				<li><a href="{{ site.url }}#about" title="about me">about</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}#code" title="">code</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}#life" title="">life</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}/tags" title="">tags</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}#code" title="code">code</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}#life" title="life">life</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}/tags" title="tags for myspace">tags</a>/&nbsp;</li>
 			</ul>
 		</nav>
     </header>
@@ -33,9 +33,9 @@
     	<nav>
 			<ul class="clear navList">
 				<li><a href="{{ site.url }}#about" title="about me">about</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}#code" title="">code</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}#life" title="">life</a>/&nbsp;</li>
-				<li><a href="{{ site.url }}/tags" title="">tags</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}#code" title="code">code</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}#life" title="life">life</a>/&nbsp;</li>
+				<li><a href="{{ site.url }}/tags" title="tags for myspace">tags</a>/&nbsp;</li>
 			</ul>
 		</nav>
 		<small>&copy; ked</small>
