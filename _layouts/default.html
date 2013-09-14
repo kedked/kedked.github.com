@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="author" content="{{ site.author }}" />
-    <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
+    <title>{% if page.id %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
     <meta name="keyword" content="{% if page.path == 'index.html' %}{{ site.keyword }}{% else %}{{ page.keyword }} {% endif %}"/>
 	<meta name="description" content="{% if page.path == 'index.html' %}{{ site.description }}{% else %}{{ page.description }}{% endif %} "/>
 	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
