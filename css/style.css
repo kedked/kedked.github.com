@@ -102,6 +102,10 @@ sup {
 sub {
     bottom: -0.25em;
 }
+blockquote{
+	text-indent:2em;
+	border-left:1px solid #ccc;
+}
 
 a{
 	text-decoration:none;
@@ -166,9 +170,6 @@ a:hover {
 	display:inline;
 }
 /*main*/
-#main h3{
-	font-size:1.4em;
-}
 #main section{
 	margin:1.4em 0 0;
 }
@@ -193,11 +194,13 @@ a:hover {
 #main h1{
 	font-size:1.8em;
 }
-#main h4{
-	font-size:1.2em;
+#main h3{
+	font-size:1.4em;
+	padding:1em 0;
 }
 #main h4{
-	padding:1.2em;
+	font-size:1.2em;
+	padding:1em 0;
 }
 #main .tagsList li{
 	float:left;
