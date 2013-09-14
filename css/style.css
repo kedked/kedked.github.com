@@ -103,8 +103,9 @@ sub {
     bottom: -0.25em;
 }
 blockquote{
-	text-indent:2em;
+	text-indent:6em;
 	border-left:1px solid #ccc;
+	line-height:1.2em;
 }
 
 a{
@@ -175,6 +176,7 @@ a:hover {
 }
 #main .catTitle{
 	font-size:1.4em;
+	padding:0;
 }
 #main ul{
 	margin-left:2em;
@@ -215,6 +217,9 @@ a:hover {
 }
 #main .post ul{
 	padding:0.5em 0 1em;
+}
+#main ul,#main ol{
+	margin:3em;
 }
 /*footer*/
 #footer{
