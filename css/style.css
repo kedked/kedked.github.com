@@ -173,6 +173,9 @@ a:hover {
 #main section{
 	margin:1.4em 0 0;
 }
+#main .catTitle{
+	font-size:1.4em;
+}
 #main ul{
 	margin-left:2em;
 }
@@ -195,7 +198,6 @@ a:hover {
 	font-size:1.8em;
 }
 #main h3{
-	font-size:1.4em;
 	padding:1em 0;
 }
 #main h4{
