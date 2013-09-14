@@ -1,5 +1,6 @@
 markdown: rdiscount
 pygments: true
+safe: true
 permalink:  /blog/:categories/:title/
 url: http://www.kedked.me
 name: ked's Space
