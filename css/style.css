@@ -183,7 +183,7 @@ a:hover {
 #main p{
 	font-size:0.9em;
 	line-height:1.9em;
-	text-indent: 4em;
+	text-indent: 2em;
 }
 /*post*/
 #main h1,#main h3,#main h4{
@@ -195,6 +195,9 @@ a:hover {
 }
 #main h4{
 	font-size:1.2em;
+}
+#main h3,#main h4{
+	padding-bottom:1.5em;
 }
 #main .tagsList li{
 	float:left;
