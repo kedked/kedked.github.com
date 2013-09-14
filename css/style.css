@@ -219,7 +219,7 @@ a:hover {
 	padding:0.5em 0 1em;
 }
 #main ul,#main ol{
-	margin:3em;
+	margin-left:3em;
 }
 /*footer*/
 #footer{
