@@ -104,7 +104,7 @@ sub {
 }
 blockquote{
 	text-indent:6em;
-	border-left:1px solid #ccc;
+	border-left:4px solid #ccc;
 	line-height:1.2em;
 }
 
@@ -186,7 +186,7 @@ a:hover {
 	line-height:1.75em;
 }
 #main p{
-	font-size:0.9em;
+	font-size:1.0em;
 	line-height:1.9em;
 	text-indent: 2em;
 }
@@ -221,6 +221,9 @@ a:hover {
 #main ul,#main ol{
 	margin-left:3em;
 }
+blockquote p{
+	font-size:1.1em;
+} 
 /*footer*/
 #footer{
 	margin-top:1em;
