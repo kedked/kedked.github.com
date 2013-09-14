@@ -1,6 +1,6 @@
 ---
 title: Tags--ked's Space
-layout: page
+layout: default
 ---
 
 {% for tag in site.tags %}
