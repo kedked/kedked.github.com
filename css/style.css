@@ -179,17 +179,17 @@ a:hover {
 }
 #main ul li{
 	font-size:1em;
-	line-height:1.6em;
+	line-height:1.75em;
 }
 #main p{
 	font-size:0.9em;
 	line-height:1.8em;
 }
 /*post*/
-#main h1,#main h3{
+#main h1,#main h3,#main h4{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	font-weight:normal;
-	line-height:2.2em;
+	line-height:1.5em;
 }
 #main h1{
 	font-size:1.8em;
