@@ -5,7 +5,7 @@ layout: default
 
 {% for tag in site.tags %}
 <section id="{{ tag[0] }}">
-    <h3 class="catTitle">{{ tag[0] }}</h3>
+    <h1 class="catTitle">{{ tag[0] }}</h1>
     <ul>
     	{% for post in tag[1] %}
         <li>
