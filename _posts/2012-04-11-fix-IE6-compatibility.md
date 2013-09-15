@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 兼容性处理原则"
+title: 兼容性处理原则
 keyword: "IE兼容性,兼容性处理原则"
 description: "兼容性处理原则"
 category: code
@@ -19,4 +19,4 @@ tags: [兼容性,css,html,web标准,可用性]
 4. 预防为主：我们要做到总结bug ，能够在bug未出现前就进行预防。和通常的处理事情的原则一致，预防为主。
 
 参考：
-IE bug集：[http://www.qianduan.net/ie-bug-resources.html](http://www.qianduan.net/ie-bug-resources.html)
+[IE bug集](http://www.qianduan.net/ie-bug-resources.html)
