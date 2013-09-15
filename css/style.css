@@ -150,12 +150,13 @@ img{
 #header{
 	margin-top:2em;
 }
-#header h2{
+#header a{
 	text-decoration:underline;
 	font-family: Electrolize;
 	font-size:3em;
 	font-style: italic;
 	line-height:1;
+	display:block;
 }
 #header p{
 	text-transform: uppercase;
