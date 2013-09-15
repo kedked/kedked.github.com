@@ -150,7 +150,7 @@ img{
 #header{
 	margin-top:2em;
 }
-#header a{
+#header .titleSite{
 	text-decoration:underline;
 	font-family: Electrolize;
 	font-size:3em;
