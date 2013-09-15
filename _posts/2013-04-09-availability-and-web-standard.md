@@ -7,3 +7,5 @@ category: code
 tags: [code,可用性,设计,html,web标准]
 ---
 
+>web标准的灵魂是可用性。 ---《网站重构》
+

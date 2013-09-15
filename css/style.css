@@ -132,6 +132,12 @@ img{
   src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
 
+/*phone*/
+@media only screen and (max-device-width:1024) {
+	#header,#main,#footer{
+		margin:0;
+	}
+}
 /*layout*/
 #header,#main,#footer{
 	margin:0 20%;
