@@ -9,7 +9,7 @@ tags: [code,html5]
 
 在实际使用中，html5新增的几个语义化标签让人抓急，该如何选择标签，是否正确使用。
 
-###article与section
+##article与section
 
 >setion:表示文档和应用的通用部分。在此上下文中，一节是一组专题内容，并通常有标题。
 >article:表示文档页面自我包含的部门。原则上，是独立发布和重复使用的。
@@ -19,20 +19,20 @@ tags: [code,html5]
 
 section与article都可以互相嵌套或者自己嵌套自己。
 
-###header与footer
+##header与footer
 在一个页面中可以使用多个。header的语义需要注意，表示页面任意独立部分的前言或导航。与以前共识理解有不同。
 
-###b与strong 
+##b与strong 
 b 语义变成与strong不一样的语义，表示移除而无需传递任何其他重要的信息.
 strong表示十分重要。多用于警告等。
 
-###em和i
+##em和i
 i 表示另一种语态或者基调。比如为了表现方言等。
 em 强调作用。与strong有区别。
 
-###small
+##small
 small的语义缩小了，仅表示页边的注释。
 
-###cite
+##cite
 引用护照参照其他的源。但不能引用人名。
 

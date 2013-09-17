@@ -200,7 +200,7 @@ img{
 	text-indent: 2em;
 }
 /*post*/
-#main h1,#main h3,#main h4{
+#main h1,#main h2,#main h3{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -208,10 +208,10 @@ img{
 #main h1{
 	font-size:1.8em;
 }
-#main h3{
+#main h2{
 	padding:1em 0;
 }
-#main h4{
+#main h3{
 	font-size:1.2em;
 	padding:1em 0;
 }
