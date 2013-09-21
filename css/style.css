@@ -14,7 +14,7 @@
 		font-size:46.875%;
 	}
 	#header,#main,#footer{
-	margin:0 0.6em;
+		margin:0 0.6em;
 	}
 }
 
@@ -23,7 +23,7 @@
 		font-size:41.67%;
 	}
 	#header,#main,#footer{
-	margin:0 0.4em;
+		margin:0 0.4em;
 	}
 }
 
