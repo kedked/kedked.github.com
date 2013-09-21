@@ -14,22 +14,18 @@ audio,canvas,video {
     *display: inline;
     *zoom: 1;
 }
-audio:not([controls]) {
-    display: none;
-}
 [hidden]{
     display: none;
 }
 
 html {
-    font-size: 100%;
     overflow-y: scroll;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 body {
-    margin: 0;
-    font-size: 1em;
+    margin: 0 auto;
+    font-size: 62.5%;
 	font-family:"Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",STHeiti sans,sans-serif;
 	color:#444;
 }
@@ -41,6 +37,7 @@ body {
 .clear {
 	zoom:1; /* for IE6 IE7 */
 }
+
 /*Typography*/
 abbr[title] {
     border-bottom: 1px dotted;
@@ -118,6 +115,7 @@ a:hover {
 img{
 	width:100%;
 }
+
 /* font from google*/
 @font-face {
   font-family: 'Galdeano';
@@ -132,12 +130,18 @@ img{
   src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
 
-/*phone*/
+/*responsive*/
 @media only screen and (max-device-width:1024px) {
 	#header,#main,#footer{
 		margin:0;
 	}
 }
+@media only screen and (max-device-width:1024px) {
+	#header,#main,#footer{
+		margin:0;
+	}
+}
+
 /*layout*/
 #header,#main,#footer{
 	margin:0 20%;
