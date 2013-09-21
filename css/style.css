@@ -3,23 +3,23 @@
 /*responsive*/
 @media only screen and (max-device-width:640px) {
 	body{
-		font-size:0.6em;
+		font-size:41.67%;
 	}
 	#header,#main,#footer{
-	margin:0 0.1em;
+	margin:0 0.4em;
 	}
 }
 @media only screen and (min-device-width:641px) and (max-device-width:960px) {
 	body{
-		font-size:0.75em;
+		font-size:46.875%;
 	}
 	#header,#main,#footer{
-	margin:0 0.2em;
+	margin:0 0.6em;
 	}
 }
 @media only screen and (min-device-width:961px)  {
 	body{
-		font-size:1em;
+		font-size:62.5%;
 	}
 	#header,#main,#footer{
 		margin:0 24em;
