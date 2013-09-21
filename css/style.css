@@ -1,29 +1,28 @@
 
 @charset "utf-8";
 /*responsive*/
-@media  screen and (min-device-width:721px)  {
+@media only screen and (min-device-width:721px)  {
 	body{
 		font-size:62.5%;
 	}
 	#header,#main,#footer{
-		margin:0 24em;
+		padding:0 24em;
 	}
 }
-@media  screen and (min-device-width:641px) and (max-device-width:720px) {
+@media only screen and (min-device-width:641px) and (max-device-width:720px) {
 	body{
 		font-size:46.875%;
 	}
 	#header,#main,#footer{
-		margin:0 0.6em;
+		padding:0 0.6em;
 	}
 }
-
-@media  screen and (max-device-width:640px) {
+@media only screen and (max-device-width:640px) {
 	body{
 		font-size:41.67%;
 	}
 	#header,#main,#footer{
-		margin:0 0.4em;
+		padding:0 0.4em;
 	}
 }
 
