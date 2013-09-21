@@ -131,14 +131,25 @@ img{
 }
 
 /*responsive*/
-@media only screen and (max-device-width:1024px) {
+@media only screen and (max-device-width:640px) {
+	body{
+		font:0.6em;
+	}
 	#header,#main,#footer{
-		margin:0;
+	margin:0;
 	}
 }
-@media only screen and (max-device-width:1024px) {
+@media only screen and (min-device-width:641px) and (max-device-width:960px) {
+	body{
+		font:0.75em;
+	}
 	#header,#main,#footer{
-		margin:0;
+	margin:0;
+	}
+}
+@media only screen and (min-device-width:961)  {
+	body{
+		font:1em;
 	}
 }
 
