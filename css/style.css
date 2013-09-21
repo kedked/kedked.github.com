@@ -20,14 +20,14 @@
 		font-size:1em;
 	}
 	#header,#main,#footer{
-	
+		margin:0 24em;
 	}
 }
 
 /*layout*/
 
 #main{
-	width:72em;
+
 	margin-top:2.2em;
 }
 /*header*/
