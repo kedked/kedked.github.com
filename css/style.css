@@ -201,8 +201,7 @@ img{
 #main p{
 	font-size:1.6em;
 	line-height:1.7;
-	text-indent: 3.2em
-	;
+	text-indent: 2em;
 }
 /*post*/
 #main h1,#main h2,#main h3{
@@ -234,6 +233,8 @@ img{
 }
 #main ul,#main ol{
 	margin-left:4.8em;
+	font-size:1.6em;
+	line-height:1.7;
 }
 blockquote p{
 	font-size:1.7em;
