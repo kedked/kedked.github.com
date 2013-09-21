@@ -69,7 +69,7 @@ mark {
 pre,code,kbd,samp {
     font-family: monospace, serif;
     _font-family: 'courier new', monospace;
-    font-size: 1em;
+    font-size: 16px;
 }
 pre {
     white-space: pre;
@@ -93,15 +93,15 @@ sub,sup {
     vertical-align: baseline;
 }
 sup {
-    top: -0.5em;
+    top: -8px;
 }
 sub {
-    bottom: -0.25em;
+    bottom: -4px;
 }
 blockquote{
-	text-indent:6em;
+	text-indent:96px;
 	border-left:4px solid #ccc;
-	line-height:1.2em;
+	line-height:19px;
 }
 
 a{
@@ -144,20 +144,20 @@ img{
 
 /*layout*/
 #header,#main,#footer{
-	margin:0 20%;
+	margin:0 240px;
 }
 #main{
-	width:60%;
-	margin-top:1.4em;
+	width:720px;
+	margin-top:22px;
 }
 /*header*/
 #header{
-	margin-top:2em;
+	margin-top:32px;
 }
 #header .titleSite{
 	text-decoration:underline;
 	font-family: Electrolize;
-	font-size:3em;
+	font-size:38px;
 	font-style: italic;
 	line-height:1;
 	display:block;
@@ -171,7 +171,7 @@ img{
 	line-height:1;
 }
 #header nav{
-	padding:1em 0;
+	padding:16px 0;
 	background:url(../images/header_bg.png);
 	border-bottom:3px solid #E0D9B8;
 }
@@ -180,28 +180,28 @@ img{
 	float:left;
 	padding-right:10px;
 	font-family:Galdeano;
-	font-size:2em;
+	font-size:32px;
 	display:inline;
 }
 /*main*/
 #main section{
-	margin:1.4em 0 0;
+	margin:22px 0 0;
 }
 #main .catTitle{
-	font-size:1.4em;
+	font-size:22px;
 	padding:0;
 }
 #main ul{
-	margin-left:2em;
+	margin-left:32px;
 }
 #main ul li{
-	font-size:1em;
-	line-height:1.75em;
+	font-size:16px;
+	line-height:28px;
 }
 #main p{
-	font-size:1.0em;
-	line-height:1.9em;
-	text-indent: 2em;
+	font-size:16px;
+	line-height:32px;
+	text-indent: 32px;
 }
 /*post*/
 #main h1,#main h2,#main h3{
@@ -210,50 +210,50 @@ img{
 	font-weight: bold;
 }
 #main h1{
-	font-size:1.8em;
+	font-size:29px;
 }
 #main h2{
-	padding:1em 0;
+	padding:16px 0;
 }
 #main h3{
-	font-size:1.2em;
-	padding:1em 0;
+	font-size:19px;
+	padding:16px 0;
 }
 #main .tagsList li{
 	float:left;
 	font-family:Galdeano;
-	font-size:1em;
+	font-size:16px;
 	display:inline;
 }
 #main .post,#main .post ul{
 	margin:0;
 }
 #main .post ul{
-	padding:0.5em 0 1em;
+	padding:8px 0 16px;
 }
 #main ul,#main ol{
-	margin-left:3em;
+	margin-left:48px;
 }
 blockquote p{
-	font-size:1.1em;
+	font-size:17px;
 } 
 #disqus_thread{
-	margin-top:2em;
+	margin-top:32px;
 }
 /*footer*/
 #footer{
-	margin-top:1em;
-	margin-bottom:1em;
+	margin-top:16px;
+	margin-bottom:16px;
 }
 #footer .navList{
-	padding:0.5em 0 1.5em;
+	padding:8px 0 24px;
 }
 #footer .navList li{
-	font-size:1.3em;
+	font-size:20px;
 }
 #footer small{
 	display:block;
 	color:#666;
-	font-size:0.85em;
-	line-height:1em;
+	font-size:13px;
+	line-height:16px;
 }
