@@ -189,7 +189,7 @@ img{
 	background:url(../images/header_bg.png);
 	border-bottom:0.3em solid #E0D9B8;
 }
-/*nav both hedaer and footer*/
+/*nav in hedaer and footer*/
 .navList li{
 	float:left;
 	padding-right:1em;
