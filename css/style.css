@@ -1,12 +1,12 @@
 
 @charset "utf-8";
 /*responsive*/
-@media only screen and (max-device-width:640px) {
+@media only screen and (min-device-width:721px)  {
 	body{
-		font-size:41.67%;
+		font-size:62.5%;
 	}
 	#header,#main,#footer{
-	margin:0 0.4em;
+		margin:0 24em;
 	}
 }
 @media only screen and (min-device-width:641px) and (max-device-width:720px) {
@@ -17,14 +17,16 @@
 	margin:0 0.6em;
 	}
 }
-@media only screen and (min-device-width:721px)  {
+
+@media only screen and (max-device-width:640px) {
 	body{
-		font-size:62.5%;
+		font-size:41.67%;
 	}
 	#header,#main,#footer{
-		margin:0 24em;
+	margin:0 0.4em;
 	}
 }
+
 
 /*layout*/
 
