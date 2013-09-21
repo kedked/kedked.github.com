@@ -1,7 +1,7 @@
 
 @charset "utf-8";
 /*responsive*/
-@media only screen and (min-device-width:721px)  {
+@media  screen and (min-device-width:721px)  {
 	body{
 		font-size:62.5%;
 	}
@@ -9,7 +9,7 @@
 		margin:0 24em;
 	}
 }
-@media only screen and (min-device-width:641px) and (max-device-width:720px) {
+@media  screen and (min-device-width:641px) and (max-device-width:720px) {
 	body{
 		font-size:46.875%;
 	}
@@ -18,7 +18,7 @@
 	}
 }
 
-@media only screen and (max-device-width:640px) {
+@media  screen and (max-device-width:640px) {
 	body{
 		font-size:41.67%;
 	}
