@@ -9,7 +9,7 @@
 	margin:0 0.4em;
 	}
 }
-@media only screen and (min-device-width:641px) and (max-device-width:960px) {
+@media only screen and (min-device-width:641px) and (max-device-width:720px) {
 	body{
 		font-size:46.875%;
 	}
@@ -17,7 +17,7 @@
 	margin:0 0.6em;
 	}
 }
-@media only screen and (min-device-width:961px)  {
+@media only screen and (min-device-width:721px)  {
 	body{
 		font-size:62.5%;
 	}
