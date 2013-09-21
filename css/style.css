@@ -24,8 +24,8 @@ html {
     -ms-text-size-adjust: 100%;
 }
 body {
-    margin: 0 auto;
-    font-size: 62.5%;
+    margin: 0;
+    font-size: 1em;
 	font-family:"Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",STHeiti sans,sans-serif;
 	color:#444;
 }
