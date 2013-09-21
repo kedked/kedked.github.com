@@ -151,12 +151,13 @@ img{
 	body{
 		font:1em;
 	}
+	#header,#main,#footer{
+	margin:0 24em;
+	}
 }
 
 /*layout*/
-#header,#main,#footer{
-	margin:0 24em;
-}
+
 #main{
 	width:72em;
 	margin-top:2.2em;
