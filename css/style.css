@@ -3,8 +3,7 @@
 /*responsive*/
 @media only screen and (max-device-width:640px) {
 	body{
-		font-size:1em;
-		width:100%;
+		font-size:0.6em;
 	}
 	#header,#main,#footer{
 		margin:0;
@@ -12,8 +11,7 @@
 }
 @media only screen and (min-device-width:641px) and (max-device-width:960px) {
 	body{
-		font-size:1.125em;
-		width:100%;
+		font-size:0.75em;
 	}
 	#header,#main,#footer{
 		margin:0;
@@ -21,7 +19,7 @@
 }
 @media only screen and (min-device-width:961px)  {
 	body{
-		font-size:1.5em;
+		font-size:1em;
 	}
 	#header,#main,#footer{
 		margin:0 24em;
