@@ -6,7 +6,7 @@
 		font-size:62.5%;
 	}
 	#header,#main,#footer{
-		padding:0 24em;
+		margin:0 24em;
 	}
 }
 @media only screen and (min-device-width:641px) and (max-device-width:720px) {
@@ -14,7 +14,7 @@
 		font-size:46.875%;
 	}
 	#header,#main,#footer{
-		padding:0 0.6em;
+		margin:0 0.6em;
 	}
 }
 @media only screen and (max-device-width:640px) {
@@ -22,7 +22,7 @@
 		font-size:41.67%;
 	}
 	#header,#main,#footer{
-		padding:0 0.4em;
+		margin:0 0.4em;
 	}
 }
 
